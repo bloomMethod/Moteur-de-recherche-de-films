@@ -4,6 +4,8 @@
 
 Le projet utilise l'API [OMDb (The Open Movie Database)](https://www.omdbapi.com/) pour récupérer les informations des films.
 
+[Visiter Cinéfilo](https://bloommethod.github.io/Moteur-de-recherche-de-films/)
+
 ## ✨ Fonctionnalités
 
 - 🔎 Recherche de films par titre.
