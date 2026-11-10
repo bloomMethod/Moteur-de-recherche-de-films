@@ -77,8 +77,5 @@ Cinéfilo possède une interface sombre et minimaliste, avec des accents dorés,
 
 ## 👨‍💻 Auteur
 
-Projet personnel réalisé dans le cadre de mon apprentissage du développement web front-end.
+Projet personnel réalisé dans le cadre  du développement web front-end.
 
----
-
-*Fait avec passion pour les amoureux du cinéma. 🍿*
