@@ -111,7 +111,7 @@ body {
             .btn {
               border: none;
               background-color: #f2bd69;
-              padding: 15px 25px;
+              padding: 15px 12px;
               font-size: 12px;
               text-align: center;
               width: 115px;
@@ -119,6 +119,7 @@ body {
               border-radius: 10px;
               transition: 0.2s ease;
               cursor: pointer;
+              white-space: nowrap;
               &:hover {
                 transform: translateY(-2px);
                 background-color: white;
@@ -162,7 +163,7 @@ body {
           font-weight: bold;
           margin-bottom: 20px;
         }
-        .oculto{
+        .oculto {
           display: none;
         }
       }
@@ -349,9 +350,13 @@ body {
       margin: 50px 0px;
       header {
         grid-template-columns: 1fr;
-        padding: 80px 0px 40px 0px;
-        margin-left: 20px;
+        padding: 80px 20px 40px 20px;
+        margin-left: 0px;
+        border-bottom: none;
         .left-content {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.155);
+          width: 100%;
+          padding-bottom: 20px;
           .title {
             h2 {
               font-size: 12px;
@@ -372,7 +377,8 @@ body {
       }
       .catalogo {
         width: 100%;
-        margin: 80px 0px 0px 20px;
+        margin: 80px 0px 0px 0px;
+        padding: 0px 20px;
         .title {
           font-size: 10px;
         }
@@ -406,6 +412,9 @@ body {
         a {
           grid-template-columns: 40px 1fr;
         }
+      }
+      span {
+        font-size: 8px;
       }
     }
   }

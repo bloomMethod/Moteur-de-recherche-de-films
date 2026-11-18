@@ -86,7 +86,7 @@ async function buscadorDePeliculas(pelicula, pagina = 1) {
 }
 
 buscar.addEventListener("click", function () {
-  terminoBusqueda = input.value;
+  terminoBusqueda = input.value.trim();
 
   if (terminoBusqueda === "") {
     return;
