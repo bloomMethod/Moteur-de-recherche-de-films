@@ -155,7 +155,7 @@ function crearPaginacion() {
   anterior.innerText = "← Précédent";
   siguiente.innerText = "Suivant →";
 
-  numeroPagina.innerText = "Page " + paginaActual + "de " + totalPaginas;
+  numeroPagina.innerText = "Page " + paginaActual + " de " + totalPaginas;
 
   anterior.disabled = paginaActual === 1;
   siguiente.disabled = paginaActual === totalPaginas;
